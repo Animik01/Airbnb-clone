@@ -12,6 +12,11 @@
     display: flex;
     background-image: linear-gradient(#FF385C, black);
 }
+#policy{
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 
 #login {
     height: 650px;
