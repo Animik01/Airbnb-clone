@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+#parent {
+    height: 739px;
+    width: auto;
+    /* background-color: black; */
+    display: flex;
+    background-image: linear-gradient(#FF385C, black);
+}
+
+#login {
+    height: 650px;
+    width: 580px;
+    background-color: white;
+    margin: 45px auto;
+    border-radius: 15px;
+
+}
+
+#first {
+    height: 60px;
+    width: 580px;
+    /* background-color: aqua; */
+    display: flex;
+    border-bottom: 1px solid rgb(187, 184, 184);
+    font-size: 15px;
+}
+
+#first1 {
+    height: 60px;
+    width: 125px;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+#info {
+    height: 120px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+#secend {
+    border-bottom: 0.5px solid black;
+}
+
+#info select {
+    height: 40px;
+    width: 490px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+
+}
+
+#info label {
+    height: 35px;
+    width: 500px;
+    padding-left: 15px;
+    color: gray;
+    font-size: small;
+}
+
+#ph {
+    height: 59px;
+    width: 498px;
+    border: none;
+    border-radius: 10px;
+    border-top: 0.5px solid black;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#secend:hover {
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#ph:hover {
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#continue {
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    background-color: #FF385C;
+    color: white;
+    padding-top: 15px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.option {
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    /* background-color: #FF385C; */
+    /* color: white; */
+    padding-top: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.option i {
+    justify-items: flex-start;
+    width: 50px;
+    /* border: 1px solid black; */
+    font-size: large;
+}
+
+.option p {
+    margin-left: 120px;
+}

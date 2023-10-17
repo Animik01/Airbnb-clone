@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>airbnb</title>
+  <link rel="stylesheet" href="./Pages/AirbnbHome.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <a href="/index.html">
+        <div id="img1"></div>
+      </a>
+
+      <div id="navtop">
+        <div class="text"><b>Stays</b></div>
+        <div class="text" style="color: gray;">Experiences</div>
+        <div class="text" style="color: gray;">Online Experiences</div>
+      </div>
+      <div id="text">Airbnb your home</div>
+      <div><i class="fa-solid fa-globe" id="globe"></i></div>
+
+      <div id="login">
+        <i class="fa-solid fa-bars"></i>
+        &nbsp; &nbsp;
+        <a href="./Pages/Login.html">
+          <i class="fa-solid fa-circle-user" style="font-size: 27px" id="user"></i>
+        </a>
+      </div>
+    </div>
+    <div id="ptsearch">
+      <div id="search">
+        <div class="navtext" id="navtext1">
+          <b>Where</b>
+          <p>Search Destination</p>
+        </div>
+        <div class="navtext" id="navtext2"><b>Check in</b>
+          <p>Add Dates</p>
+        </div>
+        <div class="navtext" id="navtext3"><b>Check out</b>
+          <p></p>
+        </div>
+        <div class="navtext" id="navtext4"><b>Who</b></div>
+        <div class="slogo">
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div id="option">
+      <div id="icon">
+        <a class="icons" href="./Pages/Lakefront.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="" />
+            </div>
+            <div class="name">Lakefront</div>
+          </div>
+        </a>
+        <a class="icons" href="./Pages/Islands.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" alt="" />
+            </div>
+            <div class="name">Islands</div>
+          </div>
+        </a>
+        <a class="icons" href="./Pages/Lake.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/a4634ca6-1407-4864-ab97-6e141967d782.jpg" alt="" />
+            </div>
+            <div class="name">Lake</div>
+          </div>
+        </a>
+        <a class="icons" href="./Pages/Beach.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" alt="" />
+            </div>
+            <div class="name">Beach</div>
+          </div>
+        </a>
+        <a class="icons" href="./Pages/Rooms.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="" />
+            </div>
+            <div class="name">Rooms</div>
+          </div>
+        </a>
+
+        <a class="icons" href="./Pages/Pools.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" />
+            </div>
+            <div class="name">Pools</div>
+          </div>
+        </a>
+
+        <a class="icons" href="./Pages/Farms.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="" />
+            </div>
+            <div class="name">Farms</div>
+          </div>
+        </a>
+
+        <a class="icons" href="./Pages/OMG!.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="" />
+            </div>
+            <div class="name">OMG!</div>
+          </div>
+        </a>
+
+        <a class="icons" href="./Pages/Arctic.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg" alt="" />
+            </div>
+            <div class="name">Arctic</div>
+          </div>
+        </a>
+
+        <a class="icons" href="./Pages/Trending.html">
+          <div>
+            <div class="img">
+              <img src="https://a0.muscache.com/pictures/3726d94b-534a-42b8-bca0-a0304d912260.jpg" alt="" />
+            </div>
+            <div class="name">Trending</div>
+          </div>
+        </a>
+
+      </div>
+      <div id="filter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="
+              display: block;
+              height: 14px;
+              width: 14px;
+              fill: currentColor;
+            " aria-hidden="true" role="presentation" focusable="false">
+          <path
+            d="M5 8a3 3 0 0 1 2.83 2H14v2H7.83A3 3 0 1 1 5 8zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6-8a3 3 0 1 1-2.83 4H2V4h6.17A3 3 0 0 1 11 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z">
+          </path>
+        </svg>
+        <span style="font-size: 12px"><b>Filters</b> </span>
+      </div>
+      <div id="display" style="font-size: 12px">
+        <b>Display total before taxes</b>
+        <span id="span"><i class="fa-solid fa-toggle-on fa-rotate-180 asd" style="color: #9a9b9e"></i></span>
+      </div>
+    </div>
+  </nav>
+  <br />
+  <article>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-14581361/original/7687891f-b0b4-4444-840e-86af2f0f30b9.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kainakary South, India</b></p>
+        <p>Vattakkaayal</p>
+        <p>13–18 Oct</p>
+        <p><b>₹4,500</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-51720528/original/b62b92b5-deeb-4991-a2cf-df3c7bfcbf87.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-790233667694503683/original/e338970b-805c-4fee-8dcc-8abeedc672d6.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/9a374478-fa6f-4cbb-b685-5bdcf4bbe5bd.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/c035a485-ae5a-4a3f-99de-05ec44099a7c.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-981108796612895780/original/a65dd65f-4eac-4738-86b7-54b2b18ed8e2.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-738146574801149853/original/679b0a7b-edd1-4e84-90ce-649faa59d637.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/66251c9b-2f50-44c4-8372-7357486e888c.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/12be7d4b-763a-47ea-85a1-07f77d721aa9.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-37462580/original/6c04e926-b0c4-4e48-a90d-7dc8e5907770.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/5563bb2c-cd62-4499-bbc3-d86ff58d4005.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-837386024022844985/original/34de46f5-c129-496b-a33a-ca9811f4a3f8.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/8409860/c7234a9e_original.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-830541419597327626/original/c94c8053-19c6-4028-8956-7acf8c6befd8.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-959232694256663425/original/07106b78-81c7-4b75-834a-9ca0a26751bb.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-54388500/original/46568818-e2eb-4e05-bf61-0a961194706a.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-924368218447045064/original/69bb902f-2f78-47c9-927d-1d5540fc2128.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-837394104624606884/original/f27e42b3-3f6c-44b6-a164-50dd96119382.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-696251951098942075/original/e7d4fe96-d6f0-444d-ae73-82921fadae4f.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/e56d3f29-8f49-4e62-adda-c90449f387cd.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-28272031/original/80668523-9f10-406c-8073-707dffd18b61.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/c7c7c26a-7c4f-4b81-a7e2-0273aee20711.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/75e32038-f42d-47ac-8f57-9e4a3ec4e34c.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/0a8a77a4-a39d-4e36-8a6b-4b15c1367721.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/4ae851cf-7f22-41df-8518-d737961866f5.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/c7c7c26a-7c4f-4b81-a7e2-0273aee20711.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-738161906652663341/original/6c407958-f746-4dc5-b2c9-ee14006a16eb.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/71b77a37-072e-4814-ab89-292dbe089cd9.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-637521886096719561/original/869821ea-0d60-4faf-a36c-625029fbbfdc.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-801042509583503285/original/350eefde-d10a-4c8d-aafc-ec88254f5700.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-801063709527180557/original/83b99e6c-0d3c-4987-abd7-37ff3ac6fd1c.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/a2ae0935-8ea5-43a8-a111-165926c83ac7.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/2d07972b-c829-456e-ba5d-f5aab0133736.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/2b535348-fa20-4532-8e66-17fe78a04642.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/69987904/015a422e_original.jpg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-888826359906290076/original/79c8e4be-75ea-4790-8c25-0637caa8e0de.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-948122787106885326/original/9eb89c95-b341-4d5f-be72-62cdc0924e82.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-21209715/original/4a770bd5-575b-410a-af3e-38fcf3413330.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-900512960248504013/original/b3820974-38c8-48d4-b122-48191f7dec5a.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child1" style="
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-593008013866152184/original/2037e20c-649c-4103-a479-7fe332063b98.jpeg?im_w=720);
+          ">
+        <i class="fa-regular fa-heart love" style="color: #ffffff"></i>
+      </div>
+      <div class="child2">
+        <p><b>Kodaikanal, India</b></p>
+        <p>Kodaikanal Lake</p>
+        <p>27 Jan – 1 Feb</p>
+        <p><b>₹28,529</b> per night</p>
+      </div>
+    </div>
+  </article>
+  <br /><br /><br />
+  <div id="con">
+    <b>Continue exploring lakefront homes</b> <button></button>
+  </div>
+  <div id="show"><b>Show more</b></div>
+  <br /><br />
+  <footer>
+    <br /><br />
+    <h2 style="margin-left: 100px"><b>Inspiration for future getaways</b></h2>
+    <br />
+    <div id="f1">
+      <div class="popular">Popular</div>
+      <div class="popular">Arts & culture</div>
+      <div class="popular">Outdoors</div>
+      <div class="popular">Mountains</div>
+      <div class="popular">Beach</div>
+      <div class="popular">Unique stays</div>
+      <div class="popular">Categories</div>
+      <div class="popular">Things to do</div>
+    </div>
+    <hr />
+    <br />
+    <div id="f2">
+      <div class="lowerfooter">
+        <p><b>Canmore</b></p>
+        <p class="textcolor">Apartment rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Benalmádena</b></p>
+        <p class="textcolor">Flat rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Marbella</b></p>
+        <p class="textcolor">Villa rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Mijas</b></p>
+        <p class="textcolor">House rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Prescott</b></p>
+        <p class="textcolor">Cottage rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Scottsdale</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Tucson</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Jasper</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Mountain View</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Devonport</b></p>
+        <p class="textcolor">Cottage rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Mallacoota</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Ibiza</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Anaheim</b></p>
+        <p class="textcolor">Holiday rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Monterey</b></p>
+        <p class="textcolor">Cabin rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Paso Robles</b></p>
+        <p class="textcolor">Cottage rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Santa Barbara</b></p>
+        <p class="textcolor">Apartment rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p><b>Sonoma</b></p>
+        <p class="textcolor">Cottage rentals</p>
+      </div>
+      <div class="lowerfooter">
+        <p>
+          <b>Show more</b><i class="fa-solid fa-chevron-down" style="color: #000000"></i>
+        </p>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div id="f3">
+      <div class="childf3">
+        <h3>Support</h3>
+        <p class="f31">Help Centre</p>
+        <p class="f31">AirCover</p>
+        <p class="f31">Anti-discrimination</p>
+        <p class="f31">Disability support</p>
+        <p class="f31">Cancellation options</p>
+        <p class="f31">Report neighbourhood concern</p>
+      </div>
+      <div class="childf3">
+        <h3>Hosting</h3>
+        <p class="f31">Airbnb your home</p>
+        <p class="f31">AirCover for Hosts</p>
+        <p class="f31">Hosting resources</p>
+        <p class="f31">Community forum</p>
+        <p class="f31">Hosting responsibly</p>
+      </div>
+      <div class="childf3">
+        <h3>Airbnb</h3>
+        <p class="f31">Newsroom</p>
+        <p class="f31">New features</p>
+        <p class="f31">Careers</p>
+        <p class="f31">Investors</p>
+        <p class="f31">Airbnb.org emergency stays</p>
+      </div>
+    </div>
+    <hr />
+    <br />
+    <div id="f4">
+      <div id="f41">
+        <div>
+          © 2023 Airbnb,
+          Inc.<span>&nbsp;&#183;&nbsp;</span>Privacy<span>&nbsp;&#183;&nbsp;</span>Terms<span>&nbsp;&#183;&nbsp;</span>Sitemap<span>&nbsp;&#183;&nbsp;</span>Company
+          details
+        </div>
+      </div>
+      <div id="f42">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="
+              display: block;
+              height: 16px;
+              width: 16px;
+              fill: currentColor;
+            " aria-hidden="true" role="presentation" focusable="false">
+          <path
+            d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
+          </path>
+        </svg>
+        <span>&nbsp;&nbsp;</span>
+        English (IN) <span>&nbsp;&nbsp;</span> ₹ INR
+        <span>&nbsp;&nbsp;</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="
+              display: block;
+              height: 18px;
+              width: 18px;
+              fill: currentColor;
+            " aria-label="Navigate to Facebook" role="img" focusable="false">
+          <path d="M30 0a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"></path>
+          <path fill="#fff"
+            d="M22.94 16H18.5v-3c0-1.27.62-2.5 2.6-2.5h2.02V6.56s-1.83-.31-3.58-.31c-3.65 0-6.04 2.21-6.04 6.22V16H9.44v4.62h4.06V32h5V20.62h3.73z">
+          </path>
+        </svg>
+        <span>&nbsp;&nbsp;</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="
+              display: block;
+              height: 18px;
+              width: 18px;
+              fill: currentColor;
+            " aria-label="Navigate to Twitter" role="img" focusable="false">
+          <path d="M32 4v24a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4z"></path>
+          <path fill="#fff"
+            d="M18.66 7.99a4.5 4.5 0 0 0-2.28 4.88A12.31 12.31 0 0 1 7.3 8.25a4.25 4.25 0 0 0 1.38 5.88c-.69 0-1.38-.13-2-.44a4.54 4.54 0 0 0 3.5 4.31 4.3 4.3 0 0 1-2 .06 4.64 4.64 0 0 0 4.19 3.13A8.33 8.33 0 0 1 5.8 23a12.44 12.44 0 0 0 19.32-11.19A7.72 7.72 0 0 0 27.3 9.5a8.3 8.3 0 0 1-2.5.75 4.7 4.7 0 0 0 2-2.5c-.87.5-1.81.87-2.81 1.06a4.5 4.5 0 0 0-5.34-.83z">
+          </path>
+        </svg>
+        <span>&nbsp;&nbsp;</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="
+              display: block;
+              height: 18px;
+              width: 18px;
+              fill: currentColor;
+            " aria-label="Navigate to Instagram" role="img" focusable="false">
+          <path d="M30 0H2a2 2 0 0 0-2 2v28c0 1.1.9 2 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"></path>
+          <path fill="#fff"
+            d="M15.71 4h1.25c2.4 0 2.85.02 3.99.07 1.28.06 2.15.26 2.91.56.79.3 1.46.72 2.13 1.38.6.6 1.08 1.33 1.38 2.13l.02.06c.28.74.48 1.58.54 2.8l.01.4c.05 1.02.06 1.63.06 4.4v.92c0 2.6-.02 3.05-.07 4.23a8.78 8.78 0 0 1-.56 2.91c-.3.8-.77 1.53-1.38 2.13a5.88 5.88 0 0 1-2.13 1.38l-.06.02c-.74.28-1.59.48-2.8.53l-.4.02c-1.02.05-1.63.06-4.4.06h-.92a73.1 73.1 0 0 1-4.23-.07 8.78 8.78 0 0 1-2.91-.56c-.8-.3-1.53-.77-2.13-1.38a5.88 5.88 0 0 1-1.38-2.13l-.02-.06a8.84 8.84 0 0 1-.54-2.8l-.01-.37A84.75 84.75 0 0 1 4 16.29v-1c0-2.62.02-3.06.07-4.24.06-1.26.26-2.13.55-2.88l.01-.03c.3-.8.77-1.53 1.38-2.13a5.88 5.88 0 0 1 2.13-1.38l.06-.02a8.84 8.84 0 0 1 2.8-.54l.37-.01C12.39 4 12.99 4 15.71 4zm.91 2.16h-1.24c-2.3 0-2.91.01-3.81.05l-.42.02c-1.17.05-1.8.25-2.23.41-.56.22-.96.48-1.38.9-.4.41-.67.8-.88 1.35l-.03.06a6.7 6.7 0 0 0-.4 2.2l-.02.45c-.04.9-.05 1.53-.05 3.94v1.08c0 2.64.02 3.05.07 4.23v.07c.06 1.13.25 1.74.42 2.16.21.56.47.96.9 1.38.4.4.8.67 1.34.88l.06.03a6.7 6.7 0 0 0 2.2.4l.45.02c.9.04 1.53.05 3.94.05h1.08c2.64 0 3.05-.02 4.23-.07h.07a6.51 6.51 0 0 0 2.16-.42c.52-.19.99-.5 1.38-.9.4-.4.67-.8.88-1.34l.03-.06a6.7 6.7 0 0 0 .4-2.2l.02-.45c.04-.9.05-1.53.05-3.94v-1.09c0-2.63-.02-3.04-.07-4.22v-.07a6.51 6.51 0 0 0-.42-2.16c-.19-.52-.5-.99-.9-1.38a3.7 3.7 0 0 0-1.34-.88l-.06-.03a6.63 6.63 0 0 0-2.16-.4l-.46-.02c-.9-.04-1.5-.05-3.8-.05zM16 9.84a6.16 6.16 0 1 1 0 12.32 6.16 6.16 0 0 1 0-12.32zM16 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm6.4-3.85a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88z">
+          </path>
+        </svg>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
