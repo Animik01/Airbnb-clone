@@ -135,12 +135,12 @@ header {
 #search {
     height: 65px;
     width: 850px;
-    /* border: 1px solid black; */
+    border: 0.5px #c4bdbe solid;
     margin-left: 350px;
     border-radius: 150px;
     display: flex;
     align-items: center;
-    box-shadow: 0px 0px 4px gray;
+    /* box-shadow: 0px 0px 4px gray; */
     background-color: white;
 }
 
@@ -151,34 +151,42 @@ header {
     padding-bottom: 35px;
     width: 350px;
     height: 30px;
-    border-right: 1px black solid;
+    border-right: 0.5px #c4bdbe solid;
 }
 
 #navtext2 {
-    padding-left: 30px;
+    padding-left: 25px;
     width: 120px;
+    padding-bottom: 35px;
     height: 30px;
     /* border-right: 1px black solid; */
 }
 
 #navtext3 {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-bottom: 35px;
     width: 120px;
     height: 30px;
-    border-left: 1px black solid;
+    border-left: 0.5px #c4bdbe solid;
+    border-right: 0.5px #c4bdbe solid;
 }
 
 #navtext4 {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-bottom: 35px;
     height: 30px;
     width: 140px;
-    border-left: 1px black solid;
 }
 
 .slogo {
-    margin-left: 50px;
-    size: 50px;
+    margin-left: 65px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-1 {
+    padding: 3px;
+    align-self: center;
 }
 
 nav {
