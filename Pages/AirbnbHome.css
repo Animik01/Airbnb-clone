@@ -274,16 +274,21 @@ img {
 }
 
 
-article {
-    height: 4500px;
-    width: 90%;
-    margin-left: 5%;
+#main-content {
+    height: auto;
+    width: 90vw;
+    margin:0 auto;
     /* background-color: chocolate; */
-    display: grid;
+    /* display: grid;
     grid-template-columns: 320px 320px 320px 320px;
     grid-template-rows: 400px;
     align-content: space-between;
-    justify-content: space-between;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(4,320px);
+    grid-template-rows: auto;
+    gap: 2rem;
+    row-gap: 3rem;
 }
 
 .parent {
